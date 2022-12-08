@@ -1,7 +1,7 @@
 device = "cuda:0"
 
-image_width = 225 
-image_height = 225 
+image_width = 572 
+image_height = 572 
 
 batch_size = 16 
 epochs = 100 
