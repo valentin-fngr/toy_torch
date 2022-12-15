@@ -3,8 +3,8 @@ import torch.nn as nn
 import sys 
 from torch.utils.tensorboard import SummaryWriter
 sys.path.insert(0,'/home/fontanger/toy_torch/toy_torch')
-from models.tiny_resnet import ResNet_16_cifar
-from data.tools import ImageNormalization
+from models.resnet import ResNet_16_cifar
+from data.utils import ImageNormalization
 from torchsummary import summary
 from utils.metrics import accuracy
 from torchvision.datasets import CIFAR10, CIFAR100
